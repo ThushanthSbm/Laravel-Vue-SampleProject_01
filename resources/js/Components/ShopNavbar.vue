@@ -12,7 +12,8 @@
                     <!-- Left Side -->
                     <div class="flex items-center space-x-2">
                         <h1 class="text-base font-medium uppercase">
-                            <Link :href="route('shop')"><span style="color: rgb(90, 132, 78)">Inertia</span>Shop</Link>
+                            <!-- <Link :href="route('shop')"><span style="color: rgb(90, 132, 78)">TSbm <i class="fa fa-shopping-bag" style="font-size:48px;color:red"></i></span>E-Shop</Link> -->
+                            <Link :href="route('shop')"><span style="color: rgb(90, 132, 78)">TSbm<i class='fas fa-store-alt' style='font-size:24px;color:red'></i></span>E-Shop</Link>
                         </h1>
                     </div>
 
